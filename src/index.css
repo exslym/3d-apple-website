@@ -8,14 +8,40 @@
 	box-sizing: border-box;
 }
 
+html {
+	scroll-behavior: smooth;
+}
+
 body {
 	color: white;
 	width: 100dvw;
-	overflow-x: hidden;
 	height: 100%;
 	background: #000;
 	border-color: #3b3b3b;
 	user-select: none;
+	overflow-x: hidden;
+	overflow-y: overlay;
+}
+
+::-webkit-scrollbar {
+	background-color: transparent;
+	border-radius: 10px;
+	width: 12px;
+}
+::-webkit-scrollbar-track {
+	background-color: transparent;
+	border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+	cursor: pointer;
+	background-color: rgba(148, 146, 141, 0.5);
+	border-radius: 8px;
+	border: solid 2px transparent;
+	box-sizing: border-box;
+	background-clip: content-box;
+}
+::-webkit-scrollbar-thumb:hover {
+	background-color: rgba(148, 146, 141, 0.7);
 }
 
 canvas {
