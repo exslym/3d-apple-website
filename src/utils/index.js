@@ -20,6 +20,8 @@ import right from '/assets/images/right.svg';
 import search from '/assets/images/search.svg';
 import watch from '/assets/images/watch.svg';
 
+import loader from '/assets/images/loader.svg';
+
 import black from '/assets/images/black.jpg';
 import blue from '/assets/images/blue.jpg';
 import chip from '/assets/images/chip.jpeg';
@@ -46,6 +48,8 @@ export const rightImg = right;
 export const replayImg = replay;
 export const playImg = play;
 export const pauseImg = pause;
+
+export const loaderImg = loader;
 
 export const yellowImg = yellow;
 export const blueImg = blue;
